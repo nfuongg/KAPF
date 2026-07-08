@@ -4,6 +4,12 @@ import { Link, useParams } from "react-router-dom";
 import { assignments } from "@/data/assignments";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 
+function renderWithItalic(text) {
+  return text
+    .split(/\*(.*?)\*/g)
+    .map((part, i) => (i % 2 === 1 ? <em key={i}>{part}</em> : part));
+}
+
 export default function AssignmentDetail() {
   const { id } = useParams();
   const assignmentId = Number(id);
@@ -17,7 +23,9 @@ export default function AssignmentDetail() {
         <div className="text-center">
           <p className="text-6xl mb-4">🔍</p>
           <p className="text-2xl font-bold mb-4">Không tìm thấy bài học</p>
-          <Link to="/" className="text-secondary underline">Quay về trang chủ</Link>
+          <Link to="/" className="text-secondary underline">
+            Quay về trang chủ
+          </Link>
         </div>
       </main>
     );
@@ -206,7 +214,7 @@ export default function AssignmentDetail() {
                   >
                     <span className="text-2xl shrink-0">{h.emoji}</span>
                     <p className="text-[clamp(14px,1.1vw,18px)] font-light leading-[1.6]">
-                      {h.text}
+                      {renderWithItalic(h.text)}
                     </p>
                   </div>
                 ))}

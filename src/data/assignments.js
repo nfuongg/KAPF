@@ -48,7 +48,7 @@ export const assignments = [
     title: "Khai thác dữ liệu và thông tin",
     icon: "🔍",
     tags: ["Tìm kiếm", "Đánh giá nguồn", "Thông tin số"],
-    pdfLink: "https://drive.google.com/file/d/1naw7mUskUDRUd7nyutyID7z9OR_RI0A5/view?usp=drive_link",
+    pdfLink: "https://drive.google.com/file/d/1HfNbXS0UXJH_2-Vb_-P7R1JKJgxl4tym/view?usp=drive_link",
     goal: "Nắm vững kỹ năng tìm kiếm, đánh giá độ tin cậy nguồn thông tin và tổng hợp tài liệu tham khảo phục vụ một đề tài nghiên cứu cụ thể.",
     summary: "Xác định đề tài nghiên cứu (Du lịch cộng đồng tại Mai Châu dưới góc nhìn phát triển bền vững), tìm kiếm và phân loại các nguồn tài liệu (báo chí, tạp chí khoa học, luận án, luận văn, sách chuyên khảo). Lập bảng đánh giá độ tin cậy nguồn theo các tiêu chí: tác giả, cơ quan xuất bản, phương pháp nghiên cứu, trích dẫn học thuật, tính cập nhật, ưu – nhược điểm và xếp hạng độ tin cậy; kèm danh mục tài liệu tham khảo chuẩn hóa.",
     sections: [
@@ -97,17 +97,17 @@ export const assignments = [
       {
         title: "Danh mục tài liệu tham khảo",
         highlights: [
-          { emoji: "📄", text: "Hoàng Anh (2022). Bản Lác (Mai Châu – Hòa Bình) nhộn nhịp trở lại sau đại dịch. vietnamtourism.gov.vn" },
-          { emoji: "📄", text: "Hoàng Anh (2023). Hòa Bình: Xã Hang Kia – Mai Châu phát triển du lịch cộng đồng. vietnamtourism.gov.vn" },
-          { emoji: "📄", text: "Thanh Hải (2024). Mai Châu – điểm đến \"Hấp dẫn – thân thiện – an toàn\". dantocmiennui.baotintuc.vn" },
-          { emoji: "📄", text: "Lê Huệ (2022). Mai Châu (Hòa Bình): Phát triển du lịch trở thành ngành kinh tế mũi nhọn. vietnamtourism.gov.vn" },
-          { emoji: "📄", text: "Hoàng Thị Thu Hương và cộng sự (2025). Đánh giá tiềm năng phát triển du lịch nông thôn ở huyện Mai Châu, tỉnh Hòa Bình. Tạp chí Khoa học HNUE, số 70, 120–129." },
-          { emoji: "📄", text: "Trần Thị Hương và cộng sự (2018). Đánh giá tác động của hoạt động du lịch sinh thái tới môi trường tự nhiên và xã hội tại Bản Lác. Tạp chí Khoa học và Lâm nghiệp, số 1, 113–122." },
-          { emoji: "📄", text: "Nguyễn Thị Hồng Tâm (2017). Biến đổi văn hóa của người Thái ở huyện Mai Châu trong phát triển du lịch. Luận án tiến sĩ, ĐH Văn hóa Hà Nội." },
-          { emoji: "📄", text: "Đinh Trọng Thu (2022). Khai thác tài nguyên văn hóa để phát triển du lịch bền vững vùng Tây Bắc. NXB Khoa học Xã hội." },
-          { emoji: "📄", text: "Nguyễn Thị Hồng Vân (2007). Tác động của du lịch đến đời sống văn hóa – xã hội của người Thái ở Mai Châu. Luận văn thạc sĩ, ĐH KHXH&NV." },
-          { emoji: "📄", text: "Minh Vũ (2025). Hòa Bình: Huyện Mai Châu tìm cách nâng tầm du lịch. vietnamtourism.gov.vn" },
-        ]
+          { emoji: "📄", text: "Hoàng Anh (2022). *Bản Lác (Mai Châu – Hòa Bình) nhộn nhịp trở lại sau đại dịch.* vietnamtourism.gov.vn" },
+          { emoji: "📄", text: "Hoàng Anh (2023). *Hòa Bình: Xã Hang Kia – Mai Châu phát triển du lịch cộng đồng.* vietnamtourism.gov.vn" },
+          { emoji: "📄", text: "Thanh Hải (2024). *Mai Châu – điểm đến \"Hấp dẫn – thân thiện – an toàn\".* dantocmiennui.baotintuc.vn" },
+          { emoji: "📄", text: "Lê Huệ (2022). *Mai Châu (Hòa Bình): Phát triển du lịch trở thành ngành kinh tế mũi nhọn.* vietnamtourism.gov.vn" },
+          { emoji: "📄", text: "Hoàng Thị Thu Hương và cộng sự (2025). Đánh giá tiềm năng phát triển du lịch nông thôn ở huyện Mai Châu, tỉnh Hòa Bình. Tạp chí *Khoa học HNUE,* số 70, 120–129." },
+          { emoji: "📄", text: "Trần Thị Hương và cộng sự (2018). Đánh giá tác động của hoạt động du lịch sinh thái tới môi trường tự nhiên và xã hội tại Bản Lác. Tạp chí *Khoa học và Lâm nghiệp,* số 1, 113–122." },
+          { emoji: "📄", text: "Nguyễn Thị Hồng Tâm (2017). *Biến đổi văn hóa của người Thái ở huyện Mai Châu trong phát triển du lịch.* Luận án tiến sĩ, ĐH Văn hóa Hà Nội." },
+          { emoji: "📄", text: "Đinh Trọng Thu (2022). *Khai thác tài nguyên văn hóa để phát triển du lịch bền vững vùng Tây Bắc.* NXB Khoa học xã hội." },
+          { emoji: "📄", text: "Nguyễn Thị Hồng Vân (2007). *Tác động của du lịch đến đời sống văn hóa – xã hội của người Thái ở Mai Châu – Hòa Bình và các giải pháp phát triển.* Trường ĐH KHXH&NV, luận văn thạc sĩ." },
+          { emoji: "📄", text: "Minh Vũ (2025). *Hòa Bình: Huyện Mai Châu tìm cách nâng tầm du lịch.* vietnamtourism.gov.vn" },
+      ]
       },
       {
         title: "Kết quả",
@@ -244,7 +244,7 @@ export const assignments = [
     title: "Sáng tạo nội dung số",
     icon: "✨",
     tags: ["Nội dung số", "Thiết kế", "AI tạo sinh"],
-    pdfLink: "https://drive.google.com/file/d/1VbWxGcLHJrOcelRrT0I23ll22RHZt49U/view?usp=drive_link",
+    pdfLink: "https://drive.google.com/file/d/1o_C6EwrFSw2RF-C3_7H3szgK2Rj3EKW-/view?usp=drive_link",
     goal: " Phát triển kỹ năng sử dụng công cụ AI tạo sinh (văn bản, hình ảnh, thiết kế) để sản xuất nội dung số phục vụ mục đích truyền thông giáo dục.",
     summary: "Báo cáo quy trình thiết kế infographic \"Lợi ích của việc học tiếng Anh trong thời đại số\" bằng cách kết hợp 3 công cụ AI: ChatGPT (viết nội dung và slogan), DALL-E (tạo hình minh họa) và Canva AI (thiết kế bố cục hoàn chỉnh). Trình bày các prompt sử dụng, kết quả nhận được, chỉnh sửa cá nhân trên từng bước; so sánh ưu – nhược điểm của 3 công cụ và phân tích vai trò của AI cùng các vấn đề đạo đức cần lưu ý (bản quyền, minh bạch, phụ thuộc công nghệ).",
     sections: [

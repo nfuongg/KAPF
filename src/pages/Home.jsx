@@ -393,9 +393,9 @@ className="flex flex-col rounded-[20px] overflow-hidden shadow-[inset_0_0_0_1px_
           <div className="flex flex-col gap-5">
             {[
             { i1: images.setupLaptop, i2: images.setupCreative, title: "Máy tính / Laptop", sub: "Thiết bị học tập chính" },
-            { i1: images.setupCreative, i2: images.setupWorkspace, title: "VS Code / Figma", sub: "Công cụ thiết kế & lập trình" },
-            { i1: images.setupWorkspace, i2: images.setupLaptop, title: "Google Workspace", sub: "Làm việc và cộng tác nhóm" }].
-            map((item, i) =>
+            { i1: images.setupCreative, i2: images.setupWorkspace, title: "Google Scholar", sub: "Tìm kiếm tài liệu học thuật" },
+            { i1: images.setupWorkspace, i2: images.setupLaptop, title: "Google Workspace", sub: "Làm việc và cộng tác nhóm" }
+            ].map((item, i) =>
             <motion.div
               key={i}
               initial={{ opacity: 0, x: -40 }}
